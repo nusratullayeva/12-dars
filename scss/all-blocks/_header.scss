@@ -1,0 +1,123 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.start-nav {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__spans {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.header__spans span:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    background: $bg-color;
+    border-radius: 20px;
+}
+
+.header__spans span:nth-child(2) {
+    width: 20px;
+    height: 35px;
+    background: $money-color;
+    border-radius: 20px;
+}
+
+.start-nav ul {
+    font-family: 'Avenir';
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.start-nav ul .header_a {
+    font-size: 16px;
+    color: $secondry-color;
+}
+
+.start-nav ul li a {
+    font-size: 16px;
+    color: $primary-color;
+}
+
+.start-nav button {
+    cursor: pointer;
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+.start-nav button:hover {
+    transition: 0.5s;
+    color: #854BD6;
+    box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+    -webkit-box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+    -moz-box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+}
+
+.start-nav button span {
+    padding-left: 20px;
+}
+
+//header
+.text_img {
+    display: flex;
+    align-items: center;
+}
+
+.img-div {
+    margin-left: -220px;
+    margin-top: 220px;
+}
+
+.texts {
+    padding-top: 15px;
+}
+
+h1 {
+    width: 570px;
+    font-family: 'Helvetica';
+    font-size: 80px;
+    line-height: 110%;
+    color: $secondry-color;
+}
+
+.texts p {
+    width: 321px;
+    font-family: 'Avenir';
+    font-size: 18px;
+    line-height: 160%;
+    color: $primary-color;
+}
+
+.texts button {
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    background: $bg-color;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.texts button:hover {
+    background-color: transparent;
+    border: 3px solid $bg-color;
+    color: $bg-color;
+    transition: 0.5s;
+}

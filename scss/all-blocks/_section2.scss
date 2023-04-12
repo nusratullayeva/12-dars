@@ -1,0 +1,114 @@
+.section002 {
+    margin-top: 150px;
+}
+
+.texts002 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.texts002 h3 {
+    font-family: 'Helvetica';
+    font-size: 40px;
+    color: $secondry-color;
+}
+
+.texts002 p {
+    text-align: center;
+    width: 499px;
+    font-family: 'Avenir';
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.cards1 {
+    align-items: center;
+    gap: 175px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.card1 {
+    background-image: url(../../images/Rectangle.svg);
+    width: 442px;
+    height: 358px;
+}
+
+.df-align {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.df-align img {
+    position: absolute;
+    top: 73px;
+    right: 299px;
+}
+
+.card-texts {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-texts h4 {
+    position: absolute;
+    top: 20px;
+    left: 172px;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    color: $secondry-color;
+}
+
+.card-texts p {
+    position: absolute;
+    top: 110px;
+    left: 172px;
+    width: 220px;
+    font-family: 'Avenir';
+    font-size: 16px;
+    line-height: 160%;
+    color: $primary-color;
+}
+
+.card-texts h5 {
+    position: absolute;
+    top: 270px;
+    left: 172px;
+}
+
+.card-texts h5 span {
+    position: absolute;
+    top: -70px;
+    left: 436px;
+}
+
+.card2 {
+    background-image: url(../../images/Rectangle-bg.svg);
+    width: 442px;
+    height: 358px;
+}
+
+.card3 {
+    background-image: url(../../images/menu.bg.svg);
+    width: 442px;
+    height: 358px;
+}
+
+.card4 {
+    background-image: url(../../images/money-bg.svg);
+    width: 442px;
+    height: 358px;
+}
+
+.cards2 {
+    align-items: center;
+    gap: 175px;
+    display: flex;
+    margin-top: 100px;
+}

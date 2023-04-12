@@ -1,0 +1,30 @@
+.section001 {
+    margin-top: 100px;
+}
+
+.start_section001 {
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+.df {
+    column-gap: 62px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    width: 475px;
+    font-family: 'Helvetica';
+    font-size: 40px;
+    line-height: 130%;
+    color: $secondry-color;
+}
+
+.df-texts p {
+    width: 474px;
+    font-family: 'Avenir';
+    font-size: 18px;
+    line-height: 160%;
+    color: $primary-color;
+}

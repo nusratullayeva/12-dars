@@ -1,0 +1,33 @@
+$primary-color: #4B5D68;
+$secondry-color: #212353;
+$bg-color: #9C69E2;
+$money-color: #F063B8;
+$color-color: #68C9BA;
+@font-face {
+    font-family: 'avenir';
+    src: url(./fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: 'Halvetica';
+    src: url(./fonts/Helvetica.woff);
+}
+
+@import './all-blocks/all-blocks';
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Halvetica';
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'avenir';
+}

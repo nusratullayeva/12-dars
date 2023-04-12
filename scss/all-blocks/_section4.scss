@@ -1,0 +1,162 @@
+.section004 {
+    margin-top: 150px;
+    height: 2px;
+    background: $bg-color;
+    opacity: 10;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.div1 .div-texts h4 {
+    font-family: 'Helvetica';
+    font-size: 40px;
+    color: $secondry-color;
+}
+
+.div1 .div-texts p {
+    margin-top: -30px;
+    font-size: 18px;
+    color: $primary-color;
+}
+
+.div1 .btns button:nth-child(2) {
+    margin-left: 30px;
+    cursor: pointer;
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+.div1 .btns button:nth-child(2):hover {
+    transition: 0.5s;
+    color: #854BD6;
+    box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+    -webkit-box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+    -moz-box-shadow: -1px 1px 61px -1px rgba(133, 75, 214, 1);
+}
+
+.div1 .btns button:nth-child(1) {
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    background: $money-color;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.div1 .btns button:nth-child(1):hover {
+    background-color: transparent;
+    border: 3px solid $money-color;
+    color: $money-color;
+    transition: 0.5s;
+}
+
+.div2 {
+    margin-top: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav h6 {
+    color: $secondry-color;
+    padding-left: 20px;
+}
+
+.nav h5 {
+    color: $secondry-color;
+    padding-left: 253px;
+}
+
+.nav h4 {
+    color: $secondry-color;
+    padding-left: 255px;
+}
+
+.nav h3 {
+    color: $secondry-color;
+    padding-left: 196px;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+}
+
+.ps {
+    padding-top: 65px;
+}
+
+.ps p:nth-child(1) {
+    width: 239px;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: $secondry-color;
+}
+
+.ps p:nth-child(2) {
+    width: 178px;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: $secondry-color;
+}
+
+.p {
+    padding-left: 195px;
+}
+
+.p p {
+    width: 111px;
+    font-size: 16px;
+    line-height: 250%;
+    color: $secondry-color;
+}
+
+.p2 {
+    padding-left: 193px;
+}
+
+.p2 p {
+    width: 93px;
+    font-size: 16px;
+    line-height: 250%;
+    color: $secondry-color;
+}
+
+.div3 img {
+    padding-left: 145px;
+    margin-top: -130px;
+}
+
+.footer {
+    padding-bottom: 96px;
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    width: 360px;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: $secondry-color;
+}
